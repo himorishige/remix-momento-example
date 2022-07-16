@@ -1,6 +1,6 @@
 import { json } from '@remix-run/node';
 import { useLoaderData } from '@remix-run/react';
-import { momento } from '~/utils/momentoClient';
+import { momento } from '~/utils/momentoClient.server';
 
 type Todo = {
   id: number;
